@@ -1,0 +1,38 @@
+.moduletable-text{
+    margin: 15px 0;
+}
+.moduletable-text h3{
+    color: #999;
+    padding: 7px 20px;
+    border-top: #878787 solid 1px;
+    border-bottom: #878787 solid 1px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    font-weight: normal;
+    background-color: #444;
+}
+.moduletable-text h3:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+.moduletable-text .mod_gdnews-text{
+    padding: 0 10px;
+}
+
+.moduletable-text .gdn_df_date-text{
+    color: #faf4ae;
+}
+
+.moduletable-text .gdn_df_title-text{
+    padding: 0 40px 0 5px;
+}
+.moduletable-text .gdn_df_title-text a{
+    color: #999;
+    border: none;
+}
+
+.moduletable-text .gdn_df_title-text a:hover{
+    color: #fff;
+    text-decoration: underline;
+}

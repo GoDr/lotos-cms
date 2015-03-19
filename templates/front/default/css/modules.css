@@ -1,0 +1,675 @@
+/* mod_calendar - Календарь
+************************************************************************/
+.moduletable-cl {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moduletable-cl h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+    text-align: left;
+}
+
+.moduletable-cl .clndr {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moduletable-cl .clndr tr {
+}
+
+.moduletable-cl .clndr th,
+.moduletable-cl .clndr td {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+}
+
+.moduletable-cl .clndr .clndr_today th {
+    font-size: 11pt;
+    font-weight: 100;
+    color: #900;
+}
+
+.moduletable-cl .clndr .clndr_nav th {
+    font-weight: 100;
+    font-size: 9pt;
+}
+
+.moduletable-cl .clnd_weeks th {
+    font-size: 8pt;
+}
+
+.moduletable-cl .clnd_weeks th:nth-child(6),
+.moduletable-cl .clnd_weeks th:nth-child(7) {
+    color: #f00;
+}
+
+.moduletable-cl .clndr_day {
+    background-color: #ffc;
+    font-weight: 700;
+}
+
+.moduletable-cl .clndr_none {
+    background-color: #eee;
+}
+
+.moduletable-cl .clndr_none:hover {
+    background-color: #fff;
+}
+
+.moduletable-cl .free {
+    color: #f00;
+}
+
+#easy_tooltip_34{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 9pt;
+    color: #000;
+    opacity: 0.85;
+    background-color:#ffc;
+    padding: 10px;
+}
+/* mod_menu_easy - Модуль меню (дополнительые меню внизу)
+************************************************************************/
+.moduletable-menusub {
+    text-align: right;
+    padding: 10px 0 10px 20px;
+}
+
+.moduletable-menusub h3 {
+    color: #fff;
+    font-size: 12pt;
+    border-bottom: 1px dotted #fff;
+    margin-bottom: 5px;
+}
+
+.moduletable-menusub > div {
+    margin-right: 10px;
+}
+
+.moduletable-menusub li a {
+    color: #ccc;
+    font-weight: 100;
+    font-size: 9pt;
+    border-bottom: 1px dotted #ccc;
+    text-decoration: none;
+}
+
+.moduletable-menusub li a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* mod_rssfeed - RSS-новости
+************************************************************************/
+.moduletable-rss {
+    text-align: left;
+}
+
+.moduletable-rss .syndicate-rss {
+    margin-top: 110px;
+}
+
+/* mod_random_image - Случайное фото
+************************************************************************/
+.moduletable-ban {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moduletable-ban h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+    text-align: left;
+}
+
+.moduletable-ban .banners-ban {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moduletable-ban .bantxt-ban {
+    font-size: 11pt;
+}
+
+.moduletable-ban .banners-ban img {
+    margin: 5px;
+    border: 1px solid #999;
+}
+
+/* mod_random_image - Случайное фото
+************************************************************************/
+.moduletable-rndfoto {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moduletable-rndfoto h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+    text-align: left;
+}
+
+.moduletable-rndfoto .random_image img {
+    padding: 10px;
+    background-color: #999;
+}
+
+/* mod_whosonline - Кто online
+************************************************************************/
+.moduletable-online {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+.moduletable-online h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+}
+
+.moduletable-online .mod_who_online {
+    padding: 0 30px;
+    color: #444;
+    font-size: 9pt;
+}
+
+.moduletable-online .mod_who_online img {
+    width: 80px;
+    margin: 2px 5px 2px 2px;
+    padding: 1px;
+    border: 1px solid #2973bd;
+}
+
+/* mod_gdnlotos - Популярные статьи
+************************************************************************/
+.moduletable-articlefoto {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+.moduletable-articlefoto h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+}
+
+.moduletable-articlefoto .gdn_df_basic-articlefoto {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.moduletable-articlefoto .gdn_df_basic-articlefoto > div:first-child {
+    float: left;
+    margin: 2px 5px 2px 2px;
+    padding: 1px;
+    border: 1px solid #2973bd;
+}
+
+.moduletable-articlefoto .gdn_df_date-articlefoto {
+    font-size: 8pt;
+    color: #2973bd;
+}
+
+.moduletable-articlefoto .gdn_df_title-articlefoto {
+    padding-left: 80px;
+}
+
+.moduletable-articlefoto .gdn_df_title-articlefoto a {
+    color: #444;
+    font-size: 9pt;
+}
+
+.moduletable-articlefoto .gdn_df_title-articlefoto a:hover {
+    color: #2973bd;
+}
+
+/* mod_search - Поиск
+************************************************************************/
+.moduletable-search {
+    background: url("../images/template/img03.jpg") no-repeat left top;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+.moduletable-search h3 {
+    color: #900;
+    text-transform: uppercase;
+    padding: 20px 0 20px 50px;
+}
+
+.moduletable-search .search-search {
+    text-align: center;
+}
+
+.moduletable-search .inputbox-search {
+    border: 1px solid #2973bd;
+    padding: 5px;
+    color: #999;
+}
+
+.moduletable-search .inputbox-search:focus {
+    color: #900;
+}
+
+/* mod_insert_php - Сегодняшняя дата
+************************************************************************/
+.moduletable-datetoday {
+    text-align: right;
+    font-size: 9pt;
+    margin: 0 0 5px;
+    padding-bottom: 5px;
+    color: #2973bd;
+    border-bottom: 1px solid #2973bd;
+}
+
+/* mod_boss_content - Интересная статья
+************************************************************************/
+.moduletable-bcon {
+    font-size: 9pt;
+}
+
+.moduletable-bcon > h3 {
+    font-size: 20pt;
+    font-weight: 100;
+    font-family: Tahoma, Arial, Verdana, Sans-Serif;
+    line-height: 100px;
+    height: 64px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+.moduletable-bcon .boss_content {
+    margin-top: 10px;
+}
+
+.moduletable-bcon .boss_content .content_item .content {
+    margin-top: 30px;
+    display: table;
+}
+
+.moduletable-bcon .boss_content .content_item .content .content_block:first-child {
+    float: left;
+}
+
+.moduletable-bcon .boss_content .content_item .content figure {
+    background: #999;
+    padding: 10px;
+    display: block;
+    width: 160px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    float: left;
+}
+
+.moduletable-bcon .boss_content .content_item .content figcaption {
+    color: #fff;
+}
+
+/* mod_menu_easy - Модуль меню (Главное меню)
+************************************************************************/
+.moduletable-menumain {
+    height: 30px;
+    line-height: 30px;
+}
+
+.moduletable-menumain ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moduletable-menumain li {
+    display: block;
+    margin: 0 5px;
+    float: left;
+}
+
+.moduletable-menumain li a,
+.moduletable-menumain li span {
+    text-transform: uppercase;
+    font-size: 14pt;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+.moduletable-menumain li a:hover {
+    border-top: 1px dotted #c00;
+    border-bottom: 1px dotted #c00;
+}
+
+.moduletable-menumain li span {
+    color: #c00;
+}
+
+/* mod_menu_easy - Модуль меню (верхнее меню)
+************************************************************************/
+.moduletable-menutop {
+    padding: 5px 0;
+}
+
+.moduletable-menutop a,
+.moduletable-menutop span {
+    display: block;
+    font-size: 10pt;
+    height: 20px;
+    text-transform: uppercase;
+    padding-left: 22px;
+    text-decoration: none;
+    border: none;
+    font-weight: 100;
+    background-image: url("../images/item_off.png");
+    margin-bottom: 10px;
+}
+
+.moduletable-menutop a {
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #444;
+    opacity: 0.7;
+}
+
+.moduletable-menutop span {
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #2973bd;
+    opacity: 1;
+}
+
+.moduletable-menutop a:hover {
+    color: #2973bd;
+    opacity: 1;
+}
+
+.moduletable-menutop a:last-child,
+.moduletable-menutop span:last-child {
+    margin-bottom: 0;
+}
+
+/* mod_ml_login - Модуль авторизации
+************************************************************************/
+.moduletable-login {
+    padding: 5px 0;
+}
+
+.mod_ml_login #log_in,
+.mod_ml_login #logout_button {
+    display: block;
+    font-size: 10pt;
+    height: 20px;
+    text-transform: uppercase;
+    padding-left: 22px;
+    text-decoration: none;
+    border: none;
+    font-weight: 100;
+    background-image: url("../images/item_off.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #444;
+    opacity: 0.7;
+}
+
+.mod_ml_login #log_in:hover,
+.mod_ml_login #logout_button:hover {
+    color: #2973bd;
+    opacity: 1;
+}
+
+.mod_ml_login #box1 {
+    text-align: center;
+    position: fixed;
+    margin-left: -150px;
+    margin-top: -100px;
+    left: 50%;
+    top: 50%;
+    display: none;
+    z-index: 3000;
+    background-color: #f4f2f2;
+    padding: 40px;
+    box-shadow: 0 0 0 10px rgba(120, 120, 120, .5);
+    border-radius: 6px;
+    width: 300px;
+    height: 200px;
+    line-height: normal;
+    color: #000;
+    font-size: 10pt;
+}
+
+.mod_ml_login #box1 .login_form p {
+    line-height: 2em;
+}
+
+.mod_ml_login #box1 input {
+    border: 1px solid #444;
+    color: #666;
+}
+
+.login_form #box1 input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #060;
+    color: #060;
+}
+
+input[type="submit"]:hover {
+    color: #2973bd;
+}
+
+.closewin {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.closewin:hover {
+    color: #c00;
+}
+
+/* mod_quote - Quote - Модуль выводит случайные цитаты
+************************************************************************/
+.moduletable-quote blockquote {
+    text-align: right;
+    font-style: italic;
+    color: #444;
+    height: 55px;
+    width: 500px;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 5px 20px;
+    font-size: 9pt;
+}
+
+/* mod_gdfeedback - GDFeedback - Модуль отратной связи
+************************************************************************/
+.moduletable-feedback {
+    display: block;
+    font-size: 10pt;
+    height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    font-weight: 100;
+    background-image: url("../images/item_off.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    opacity: 0.7;
+    padding: 5px 0 5px 22px;
+}
+
+.moduletable-feedback .error-feedback {
+    font-size: 11pt;
+}
+
+.moduletable-feedback:hover {
+    color: #2973bd;
+    opacity: 1;
+}
+
+.feedback_box a.ref {
+    cursor: pointer;
+}
+
+.feedback_box {
+    position: relative;
+    width: 500px;
+    padding: 16px;
+    background: #fff;
+    color: #3c3c3c;
+    font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, .5);
+    border-radius: 6px;
+}
+
+.feedback_box input,
+.feedback_box textarea {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.feedback_box input[type=submit] {
+    margin-left: 105px;
+    background-color: #fff;
+}
+
+.feedback_box input[type=submit]:hover {
+    background-color: #ffc;
+}
+
+.feedback_box td {
+    padding: 10px;
+}
+
+.feedback_box td:nth-child(odd) {
+    text-align: right;
+}
+
+.feedback_box_close {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.feedback_box_close:hover {
+    color: #666;
+}
+
+.feedback_g {
+    display: none;
+}
+
+.feedback_m {
+    color: #444;
+}
+
+.feedback_m:hover {
+    color: #2973bd;
+}
+
+.arcticmodal-close:hover {
+    color: #c00;
+    border-color: #c00;
+}
+
+.feedback_itog {
+    color: #f00;
+}
+
+/* mod_gdslider - GDSlider - модуль слайшоу
+************************************************************************/
+.moduletable-slider {
+    margin-bottom: 30px;
+}
+
+/* [ Основной контейнер ] */
+#siteContainer_gds_14 {
+    width: 592px; /* image_big_width + border */
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* [ Контейнер слайдера ] */
+#homeSlides_gds_14 {
+    width: 590px; /* image_big_width */
+    height: 300px; /* image_big_height */
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+/* [ контейнер картинок ] */
+#slides_gds_14 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 7;
+    opacity: 0;
+}
+
+/* [ Контейнер навигации ] */
+#slidesNav_gds_14 ul {
+}
+
+/* [ коррекция отступа первой картинки ] */
+#slidesNav_gds_14 li:first-child {
+    margin-left: 40px;
+}
+
+#slidesNav_gds_14 li {
+    float: left;
+    width: 90px; /* image_small_width + 10 */
+    height: 60px; /* image_small_height + 10 */
+    margin: 0 9px
+}
+
+#slidesNav_gds_14 li a {
+    display: block;
+    position: relative;
+    float: left;
+    z-index: 99;
+    outline: 0;
+    text-decoration: none;
+    border: none;
+    width: 88px; /* image_small_width + 8 */
+    height: 58px; /* image_small_height + 8 */
+    cursor: pointer;
+}
+
+/* [ Стиль привьюшки ] */
+#slidesNav_gds_14 li a img {
+    position: absolute;
+    display: block;
+    border: solid 1px #2973bd;
+    border-radius: 6px;
+    width: 80px; /* image_small_width */
+    height: 50px; /*image_small_height */
+}
+
+/* [ Стиль активной превьюшки ] */
+#slidesNav_gds_14 li.activeSlide a img {
+    border: solid 4px #c00
+}
+

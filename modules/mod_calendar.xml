@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="1.0">
+    <name>Calendar</name>
+    <creationDate>20.03.2014</creationDate>
+    <modificationDate>20.03.2014</modificationDate>
+    <author>Gold Dragon</author>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>http://gd.lotos-cms.ru</authorUrl>
+    <copyright>(C) 2000-2014 Gold Dragon.</copyright>
+    <license>The MIT License (MIT)</license>
+    <version>1.0</version>
+    <description>
+        <![CDATA[
+		<h3>&laquo;Calendar&raquo; - модуль календарь статей.</h3>
+		]]>
+    </description>
+    <files>
+        <filename module="mod_calendar">mod_calendar.php</filename>
+        <filename module="mod_calendar">mod_calendar/helper.php</filename>
+    </files>
+    <params>
+        <param name="moduleclass_sfx" type="text" default="" label="CSS-суффикс класса модуля" description="Суффикс, который будет использован в описании класса таблицы стилей (CSS) модуля. Это позволяет использовать индивидуальный стиль модуля." />
+        <param name="directory" type="directory" default="" label="Каталог" description="Выберите, из какого каталога будут будет выбираться содержимое"/>
+        <param name="catid" type="text" default="" label="Идентификатор (ID) категории" description="Выбор объектов из определенных категорий, или набора категорий (для выбора более одной категории, разделяйте их запятой , ). Оставьте это поле пустым если хотите выбирать содержимое из всех категорий"/>
+        <param name="xoffset" type="text" default="20" label="Смещение подсказки влево" description="Смещение подсказки влево относительно курсора. Допустимы отричательные значения"/>
+        <param name="yoffset" type="text" default="25" label="Смещение подсказки вверх" description="Смещение подсказки вверх относительно курсора. Допустимы отричательные значения"/>
+        <param name="form" type="yesno" default="1" label="Вид отображения" description="Стандартный - обычное табличное отображение календаря. Строчный - календарь отображается в строку" yes="Стандартный" no="Строчный"/>
+    </params>
+</mosinstall>
+
+
+
+
+
+
+
+
+
+
+
+

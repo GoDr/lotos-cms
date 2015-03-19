@@ -1,0 +1,129 @@
+/* Общие стили
+**********************************************************/
+.tpl_width {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* Главный контейнер
+**********************************************************/
+#tpl_body {
+    background-color: #fff;
+}
+
+/* Шапка
+**********************************************************/
+header {
+    background-image: url("../images/template/img01.png");
+    background-repeat: repeat-x;
+    height: 211px;
+}
+
+header .tpl_width {
+    position: relative;
+}
+
+#tpl_logo {
+    position: absolute;
+    background-image: url("../images/template/logo.png");
+    background-repeat: no-repeat;
+    height: 154px;
+    width: 376px;
+}
+
+#tpl_slogan {
+    left: 200px;
+    top: 15px;
+    position: absolute;
+    height: 65px;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(240deg, rgb(255, 255, 255) 34%, rgb(239, 239, 239) 64%);
+    border-right: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+#tpl_top {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#tpl_menu {
+    width: 980px;
+    height: 30px;
+    position: absolute;
+    top: 170px;
+}
+
+/* Центральная часть
+**********************************************************/
+#tpl_center {
+    display: table;
+}
+
+#tpl_left {
+    width: 295px;
+    float: left;
+    padding: 30px 15px 30px 30px;
+}
+
+#tpl_right {
+    width: 595px;
+    padding: 30px 30px 30px 15px;
+    float: right;
+}
+
+/* Нижняя часть
+**********************************************************/
+#tpl_down {
+    height: 200px;
+    width: inherit;
+    background-color: #666;
+}
+
+#tpl_down_1,
+#tpl_down_2,
+#tpl_down_3 {
+    margin: 10px;
+    height: 180px;
+    width: 250px;
+    float: left;
+}
+
+#tpl_down_4 {
+    margin: 10px;
+    height: 180px;
+    width: 70px;
+    float: left;
+}
+
+#tpl_down_1 {
+}
+
+#tpl_down_2 {
+}
+
+#tpl_down_3 {
+}
+
+/* Подвал
+**********************************************************/
+footer {
+    padding-top: 10px;
+    text-align: center;
+    height: 70px;
+    width: inherit;
+    font-size: 10pt;
+    background-color: rgb(239, 239, 239);
+}

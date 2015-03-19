@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="template" version="1.0">
+    <name>Default</name>
+    <creationDate>01.03.2014</creationDate>
+    <author>Gold Dragon</author>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>http://gd.lotos-cms.ru</authorUrl>
+    <copyright>(c) Lotos CMS</copyright>
+    <version>1.0</version>
+    <license>The MIT</license>
+    <description><![CDATA[Шаблон по умолчанию для Lotos CMS]]></description>
+</mosinstall>

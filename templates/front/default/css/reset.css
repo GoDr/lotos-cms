@@ -1,0 +1,161 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code,
+command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, main, menu, meter,
+nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table,
+tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: top
+}
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen,
+main, menu, meter, nav, output, progress, section, source, video {
+    display: block
+}
+
+mark, rp, rt, ruby, summary, time {
+    display: inline
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+table, table td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr{
+    vertical-align: top;
+}
+
+img {
+    vertical-align: top
+}
+
+embed {
+    vertical-align: top
+}
+
+ins {
+    text-decoration: dashed;
+}
+
+mark {
+    padding: 0 3px;
+    border: 1px dashed #333;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, sans-serif;
+}
+
+small {
+    font-size: 85%;
+}
+
+strong, th {
+    font-weight: bold;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+pre {
+    padding: 15px;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+label, input[type=button], input[type=submit], button, a {
+    cursor: pointer;
+}
+
+input:invalid,
+textarea:invalid {
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px red;
+}
+
+input{
+    border: 1px solid #3187AA;
+    margin: 1px;
+    padding: 1px;
+}
+button {
+    width: auto;
+    overflow: visible;
+}
+
+.clear:before, .clear:after {
+    content: "";
+    display: table;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+* {
+    border: none
+}

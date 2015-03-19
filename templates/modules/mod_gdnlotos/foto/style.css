@@ -1,0 +1,32 @@
+.moduletable-foto{
+    margin: 15px 0;
+}
+.moduletable-foto h3{
+    color: #999;
+    padding: 7px 20px;
+    border-top: #878787 solid 1px;
+    border-bottom: #878787 solid 1px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    font-weight: normal;
+    background-color: #444;
+}
+.moduletable-foto h3:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+.moduletable-foto .gdn_df_image-foto {
+    padding: 5px 0 5px 25px;
+}
+
+.moduletable-foto .gdn_df_image-foto img {
+    margin: 2px auto;
+    padding: 1px;
+    border: #cccccc solid 1px;
+}
+
+.moduletable-foto .gdn_df_image-foto img:hover {
+box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+

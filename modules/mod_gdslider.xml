@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="0.5">
+    <name>GDSlider</name>
+    <creationDate>10.10.2013</creationDate>
+    <modificationDate>26.02.2014</modificationDate>
+    <author>Gold Dragon</author>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>http://gd.lotos-cms.ru</authorUrl>
+    <copyright>(C) 2000-2014 Gold Dragon.</copyright>
+    <license>The MIT License (MIT)</license>
+    <version>1.1</version>
+    <description>
+        <![CDATA[
+		<p style="font-size:130%"><b>&laquo;GDSlider&raquo;</b> - модуль слайшоу.</p>
+		]]>
+    </description>
+    <files>
+        <filename module="mod_gdslider">mod_gdslider.php</filename>
+    </files>
+    <params>
+        <param name="params" type="tabs" default="startPane"/>
+        <param name="tab1" type="tabs" default="startTab" label="Настройка модуля"/>
+
+        <param name="moduleclass_sfx" type="text" default="" label="CSS-суффикс класса модуля" description="Суффикс, который будет использован в описании класса таблицы стилей (CSS) модуля. Это позволяет использовать индивидуальный стиль модуля." />
+        <param name="cache" type="yesno" default="0" label="Разрешить кеширование" description="Выберите, кешировать ли содержимое этого модуля" />
+        <param name="cache_time" type="cachelist" label="Кешировать" description="Выберите время на которое необходимо кешировать данный модуль" />
+
+        <param name="tab1" type="tabs" default="endTab"/>
+        <param name="tab2" type="tabs" default="startTab" label="Настройка Основного изображения"/>
+
+        <param name="image_path" type="text" default="images/modules/mod_gdslider" label="Путь до директории с изображениями" description="Укажите путь до директории с изображениями без начального и конечного слеша. По умолчанию путь images/modules/mod_gdslider"/>
+        <param name="image_pref" type="text" default="gds_" label="Префикс имени файла" description="Укажите префикс файла изображения по которому будет делаться выборка файлов"/>
+        <param name="image_count" type="text" default="5" label="Количество изображений для выборки" description="Если указанное количество меньше количества изображений в директории, то изображения будут выбраны в случайном порядке"/>
+        <param name="speed" type="text" default="600" label="Скорость смены изображений" description="Укажите, с какой скоростью в миллисекундах будут сменяться изображения"/>
+        <param name="timeout" type="text" default="3000" label="Время задержки" description="Укажите, какое время в миллисекундах будет показываться изображение"/>
+        <param name="fx_cycle" type="list" default="9" label="Эффект смены изображений" description="">
+            <option value="0">Без эффекта</option>
+            <option value="1">blindX</option>
+            <option value="2">blindY</option>
+            <option value="3">blindZ</option>
+            <option value="4">cover</option>
+            <option value="5">curtainX</option>
+            <option value="6">curtainY</option>
+            <option value="7">fade</option>
+            <option value="8">fadeZoom</option>
+            <option value="9">growX</option>
+            <option value="10">growY</option>
+            <option value="11">scrollUp</option>
+            <option value="12">scrollDown</option>
+            <option value="13">scrollLeft</option>
+            <option value="14">scrollRight</option>
+            <option value="15">scrollHorz</option>
+            <option value="16">scrollVert</option>
+            <option value="17">shuffle</option>
+            <option value="18">slideX</option>
+            <option value="19">slideY</option>
+            <option value="20">toss</option>
+            <option value="21">turnUp</option>
+            <option value="22">turnDown</option>
+            <option value="23">turnLeft</option>
+            <option value="24">turnRight</option>
+            <option value="25">uncover</option>
+            <option value="26">wipe</option>
+            <option value="27">zoom</option>
+            <option value="28">Случайный</option>
+        </param>
+        <param name="image_big_width" type="text" default="960" label="Ширина основного изображения" description=""/>
+        <param name="image_big_height" type="text" default="400" label="Высота основного изображения" description=""/>
+
+        <param name="tab2" type="tabs" default="endTab"/>
+        <param name="tab3" type="tabs" default="startTab" label="Настройка изображений предпросмотра"/>
+
+        <param name="fx_easing_in" type="list" default="easeOutBack" label="Эффект появления панели" description="">
+            <option value="linear">linear</option>
+            <option value="easeInExpo">easeInExpo</option>
+            <option value="easeOutExpo">easeOutExpo</option>
+            <option value="easeInCirc">easeInCirc</option>
+            <option value="easeOutCirc">easeOutCirc</option>
+            <option value="easeInOutCirc">easeInOutCirc</option>
+            <option value="easeInBack">easeInBack</option>
+            <option value="easeOutBack">easeOutBack</option>
+            <option value="easeInOutBack">easeInOutBack</option>
+            <option value="easeInElastic">easeInElastic</option>
+            <option value="easeOutElastic">easeOutElastic</option>
+            <option value="easeInOutElastic">easeInOutElastic</option>
+            <option value="easeInBounce">easeInBounce</option>
+            <option value="easeOutBounce">easeOutBounce</option>
+            <option value="easeInOutBounce">easeInOutBounce</option>
+        </param>
+        <param name="speed_in" type="text" default="600" label="Скорость появления панели" description="Укажите, с какой скоростью в миллисекундах будет панель"/>
+        <param name="pause_in" type="text" default="100" label="Задержка появления" description="Укажите, с какой задержкой в миллисекундах будет появляется следующее изображение"/>
+        <param name="fx_easing_out" type="list" default="easeOutBack" label="Эффект скрытия панели" description="">
+            <option value="linear">linear</option>
+            <option value="easeInExpo">easeInExpo</option>
+            <option value="easeOutExpo">easeOutExpo</option>
+            <option value="easeInCirc">easeInCirc</option>
+            <option value="easeOutCirc">easeOutCirc</option>
+            <option value="easeInOutCirc">easeInOutCirc</option>
+            <option value="easeInBack">easeInBack</option>
+            <option value="easeOutBack">easeOutBack</option>
+            <option value="easeInOutBack">easeInOutBack</option>
+            <option value="easeInElastic">easeInElastic</option>
+            <option value="easeOutElastic">easeOutElastic</option>
+            <option value="easeInOutElastic">easeInOutElastic</option>
+            <option value="easeInBounce">easeInBounce</option>
+            <option value="easeOutBounce">easeOutBounce</option>
+            <option value="easeInOutBounce">easeInOutBounce</option>
+        </param>
+        <param name="speed_out" type="text" default="300" label="Скорость скрытия панели" description="Укажите, с какой скоростью в миллисекундах будет скрываться"/>
+        <param name="pause_out" type="text" default="100" label="Задержка скрытия" description="Укажите, с какой задержкой в миллисекундах будет скрываться следующее изображение"/>
+        <param name="image_small_width" type="text" default="90" label="Ширина изображений предпросмотра" description=""/>
+        <param name="image_small_height" type="text" default="70" label="Высота изображений предпросмотра" description=""/>
+        <param name="image_small_quality" type="text" default="75" label="Качество миниэскиза" description="Укажите качество миниэскиза. Диапазон значений от 0 (наихудшее качество, наименьший файл) до 100 (наилучшее качество, наибольший файл). По умолчанию используется значение 75"/>
+
+        <param name="tab3" type="tabs" default="endTab"/>
+        <param type="tabs" default="endPane"/>
+    </params>
+</mosinstall>
+
+
+
+
+
+
+
+
+
+
+
+

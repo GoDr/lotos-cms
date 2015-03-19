@@ -1,0 +1,23 @@
+[error]
+<table>
+    <tr>
+        <td>[name-d]:</td>
+        <td>[name-k]</td>
+    </tr>
+    <tr>
+        <td>[email-d]:</td>
+        <td>[email-k]</td>
+    </tr>
+    <tr>
+        <td>[message-d]:</td>
+        <td>[message-k]</td>
+    </tr>
+    <tr>
+        <td>[code-txt]</td>
+        <td>[code-img]</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[buttom]</td>
+    </tr>
+</table>

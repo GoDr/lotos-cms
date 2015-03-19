@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "template.css";
+@import "components.css";
+@import "modules.css";
+
+*{
+    font-family: arial, verdana, sans-serif;
+    font-size: 10pt;
+}
+
+a{
+    color: rgb(53, 106, 160);
+}
+a:hover{
+    color: rgb(204, 0, 0);
+}

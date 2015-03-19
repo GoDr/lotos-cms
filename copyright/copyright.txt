@@ -1,0 +1,61 @@
+Lotos CMS - http://lotos-cms.ru/
+    The MIT License
+    * Copyright (c) 2013-2014 Lotos CMS (http://lotos-cms.ru/)
+    * Copyright (c) 2000-2014 Gold Dragon (Roman U Pudovkin) (http://gd.lotos-cms.ru/)
+    * Copyright (c) 2011-2014 Abasia (Aleksandr A Shmaev) (http://ab.lotos-cms.ru/)
+
+Joostina
+    GNU GENERAL PUBLIC LICENSE
+    * Copyright (c) 2008-2010 Joostina team.
+
+Joomla RE
+    GNU GENERAL PUBLIC LICENSE
+    * Copyright (c) 2005-2007 Joom.Ru
+
+Joomla LE
+    GNU GENERAL PUBLIC LICENSE
+    * Copyright (c) AndyR (http://andyr.mrezha.ru/)
+
+Mambo
+    GNU GENERAL PUBLIC LICENSE
+    * Copyright (c) 2000 - 2004 Miro International Pty Ltd
+
+PHP - http://www.php.net/
+    The PHP License, version 3.01
+    * Copyright (c) 1999 - 2014 The PHP Group (group@php.net)
+
+Javascript
+    The BSD License
+    * Copyright (c) Oracle Corporation
+	
+jQuery v2.0.1 : http://jquery.com
+    The MIT License
+    * Copyright (c) 2005, 2013 jQuery Foundation, Inc.
+
+jQuery UI 1.10.3 : http://jqueryui.com/
+    The MIT License
+    * Copyright (c) 2013 jQuery Foundation and other contributors
+	
+jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+    The BSD License
+    * Copyright (c) 2008 George McGinley Smith
+    * Copyright (c) 2001 Robert Penner
+	
+Easy Tooltip 1.0 : http://cssglobe.com/post/4380/easy-tooltip--jquery-plugin
+    The MIT License
+    GNU GENERAL PUBLIC LICENSE
+    * Copyright (c) 2009 Alen Grakalic (http://cssglobe.com)
+
+CKEditor 4.3.1 : http://ckeditor.com/	
+    GNU GENERAL PUBLIC LICENSE
+    GNU LESSER GENERAL PUBLIC LICENSE
+    Mozilla Public License
+    * Copyright (c) 2003-2013, CKSource - Frederico Knabben
+
+KCFinder 3.xx - http://kcfinder.sunhater.com
+    GPL & LGPL Licenses (of your choice)
+    * Copyright (c) 2010-2014 Pavel Tzonkov (http://sunhater.com)
+	
+elFinder 2.0 rc1 - http://elfinder.org/
+    The BSD License
+    * Copyright (c) 2009-2012, Studio 42 (http://www.std42.ru/)

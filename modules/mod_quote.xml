@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="0.5">
+    <name>Quote</name>
+    <creationDate>05.03.2014</creationDate>
+    <modificationDate>05.03.2014</modificationDate>
+    <author>Gold Dragon</author>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>http://gd.lotos-cms.ru</authorUrl>
+    <copyright>(C) 2000-2014 Gold Dragon.</copyright>
+    <license>The MIT License (MIT)</license>
+    <version>1.0</version>
+    <description>
+        <![CDATA[
+		<p style="font-size:130%"><b>&laquo;Quote&raquo;</b> - модуль выводит случайные цитаты.</p>
+        <table width="100%">
+            <tr>
+                <th span="2">Название файла</th>
+            </tr>
+            <tr valign="top">
+                <td>[<b>ПРЕФИКС</b>][<b>A-Za-z0-9</b>].ini</td>
+            </tr>
+            <tr>
+                <th span="2">Структура файла</th>
+            </tr>
+            <tr valign="top">
+                <td>
+                quote[] = "Цитата один"
+                <br>
+                quote[] = "Цитата два"
+                <br>
+                quote[] = "Цитата три"
+                </td>
+            </tr>
+            <tr>
+                <th span="2">Правила INI-файла</th>
+            </tr>
+            <tr valign="top">
+                <td>
+                - Каждая новая цитата должна начинаться с новой строки
+                <br>
+                - Цитаты должны быть помещены в двойные кавычки'
+                <br>
+                - Если в файле есть комментраии, то они должны начинаться с '<b>;</b>'
+                </td>
+            </tr>
+        </table>
+		]]>
+    </description>
+    <files>
+        <filename module="mod_quote">mod_quote.php</filename>
+    </files>
+    <params>
+        <param name="moduleclass_sfx" type="text" default="" label="CSS-суффикс класса модуля" description="Суффикс, который будет использован в описании класса таблицы стилей (CSS) модуля. Это позволяет использовать индивидуальный стиль модуля."/>
+        <param name="path" type="text" default="images/quote" label="Путь до файла с цитатами" description=""/>
+        <param name="pref" type="text" default="qt_" label="Префикс имени файла" description="Укажите префикс файла с цитатами"/>
+        <param name="error_view" type="yesno" default="1" label="Показывать ошибки" description="Выводить ли на сайте ошибки настройки модуля"/>
+    </params>
+</mosinstall>

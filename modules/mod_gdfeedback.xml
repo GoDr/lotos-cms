@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="1.0">
+    <name>GDFeedback</name>
+    <creationDate>24.10.2013</creationDate>
+    <modificationDate>26.02.2014</modificationDate>
+    <author>Gold Dragon</author>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>http://gd.lotos-cms.ru</authorUrl>
+    <copyright>(C) 2000-2014 Gold Dragon.</copyright>
+    <license>The MIT License (MIT)</license>
+    <version>1.2</version>
+    <description>
+        <![CDATA[
+		<h3>&laquo;GDFeedback&raquo; - модуль обратной связи.</h3>
+        <table width="100%">
+            <tr>
+                <th>Формат записи формы:</th>
+                <th>Пример:</th>
+            </tr>
+            <tr valign="top">
+                <td>
+                    <b>[AAA:BBB]</b>
+                    <br><b><i>CCC=DDD</i></b>
+                    <br><b><i>CCC=DDD</i></b>
+                    <br><b><i>CCC=DDD</i></b>
+                    <br><br>где:
+                    <br><b><i>AAA</i></b> - тип элемента
+                    <br><b><i>BBB</i></b> - униикальное имя элемента (используйте латинские буквы, подчёркивание или тире)
+                    <br><b><i>CCC</i></b> - имя параметра
+                    <br><b><i>DDD</i></b> - значение параметра
+                </td>
+                <td>
+                    <b>[text:name]</b>
+                    <br><b><i>desc</i></b>=Ваше имя
+                    <br><b><i>maxlength</i></b>=30
+                    <br><b><i>size</i></b>=20
+                    <br><b><i>type</i></b>=text
+                    <br><b><i>value</i></b>=Гость
+                    <br><b><i>required</i></b>=1
+                    <br><b><i>placeholder</i></b>=Введите имя
+                    <br><br>
+                    <b>[textarea:message]</b>
+                    <br><b><i>desc</i></b>=Сообщение
+                    <br><b><i>cols</i></b>=50
+                    <br><b><i>maxlength</i></b>=1000
+                    <br><b><i>rows</i></b>=5
+                    <br><b><i>required</i></b>=1
+                    <br><b><i>placeholder</i></b>=Введите сообщение
+                </td>
+            </tr>
+        </table>
+		<table>
+		    <tr>
+		        <th colspan="2">Доспупные элемены и настройки:</th>
+		    </tr>
+		    <tr valign="top">
+		        <td>
+            		<b>text</b><br>
+		            - <b><i>desc</i></b> - Описание элемента<br>
+                    - <b><i>value</i></b> - Значение по умолчанию<br>
+                    - <b><i>maxlength</i></b> - Максимальное количество символов в текстовом поле<br>
+                    - <b><i>placeholder</i></b> - Подсказка в текстовом поле поле<br>
+                    - <b><i>required</i></b> - Является ли поле обязательным: 1 - да, 0 (или не указывать значение) - нет<br>
+                    - <b><i>size</i></b> - Количество символов, которые должно быть видны в поле ввода<br>
+                    - <b><i>type</i></b> - Тип элемента ввода: email, url, text, password, tel
+		        </td>
+		        <td>
+            		<b>textarea</b><br>
+		            - <b><i>desc</i></b> - Описание элемента<br>
+                    - <b><i>cols</i></b> - Видимая ширина текстовой области<br>
+                    - <b><i>maxlength</i></b> - Максимальное количество символов в текстовом поле<br>
+                    - <b><i>placeholder</i></b> - Подсказка в текстовом поле поле<br>
+                    - <b><i>required</i></b> - Является ли поле обязательным: 1 - да, 0 (или не указывать значение) - нет<br>
+                    - <b><i>rows</i></b> - Видимое количество строк в текстовой области<br>
+                    - <b><i>value</i></b> - Значение по умолчанию
+		        </td>
+		    </tr>
+		</table>
+        <table width="100%">
+            <tr>
+                <th colspan="2">Описание шаблона:</th>
+            </tr>
+            <tr valign="top">
+                <td>[BBB-d]</td><td>расположение описания элемента,<br>где BBB - уникальное имя элемента</td>
+            </tr>
+            <tr valign="top">
+                <td>[BBB-k]</td><td>расположение элемента,<br>где BBB - уникальное имя элемента</td>
+            </tr>
+            <tr valign="top">
+                <td>[code-txt]</td><td>расположение описания проверочного кода</td>
+            </tr>
+            <tr valign="top">
+                <td>[code-img]</td><td>расположение самого проверочного кода и поля ввода</td>
+            </tr>
+            <tr valign="top">
+                <td>[buttom]</td><td>расположение кнопки "отправить"</td>
+            </tr>
+            <tr valign="top">
+                <td>[error]</td><td>расположение ошибок модуля</td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <th>Пример шаблона:</th>
+            </tr>
+            <tr valign="top">
+                <td>
+                &lt;div>&lt;label>[name-d]: [name-k]&lt;/label>&lt;/div>
+                <br>&lt;div>&lt;label>[email-d]: [email-k]&lt;/label>&lt;/div>
+                <br>&lt;div>&lt;label>[message-d]: [message-k]&lt;/label>&lt;/div>
+                <br>&lt;div>&lt;label>[code-txt]: [code-img]&lt;/label>&lt;/div>
+                <br>&lt;div>[buttom]&lt;/div>
+                </td>
+            </tr>
+        </table>
+		]]>
+    </description>
+    <files>
+        <filename module="mod_gdfeedback">mod_gdfeedback.php</filename>
+        <filename module="mod_gdfeedback">mod_gdfeedback/helper.php</filename>
+    </files>
+    <params>
+        <param name="moduleclass_sfx" type="text" default="" label="CSS-суффикс класса модуля" description="Суффикс, который будет использован в описании класса таблицы стилей (CSS) модуля. Это позволяет использовать индивидуальный стиль модуля." />
+
+        <param name="cache" type="yesno" default="0" label="Разрешить кеширование" description="Выберите, кешировать ли содержимое этого модуля" />
+
+        <param name="cache_time" type="cachelist" label="Кешировать" description="Выберите время на которое необходимо кешировать данный модуль" />
+
+        <param name="name_form" type="text" default="Форма обратной связи" label="Название формы" description="" />
+
+        <param name="email_to" type="text" default="" label="Email: кому" description="Укажите адрес на который будет отправляться письмо" />
+
+        <param name="email_c" type="text" default="" label="Email: копия" description="Укажите адрес на который будет отправляться копии письма. Оставьте поле пустым если копия не нужна" />
+
+        <param name="email_cc" type="text" default="" label="Email: скрытая копия" description="Укажите адрес на который будет отправляться скрытая копии письма. Оставьте поле пустым если скрытая копия не нужна" />
+
+        <param name="captcha" type="yesno" default="1" label="Показывать CAPTCHA" description="Показывать защищённый код для оправки сообщений"/>
+
+        <param name="template_dir" type="yesno" default="0" label="Директория шаблона" description="Системная - шаблон находится в modules/mod_gdfeddback/view/. Папка шаблона сайта - шаблон находится в templates/текущий_шаблон_сайта/html/modules/mod_gdfeedback/" yes="Папка шаблона сайта" no="Системная"/>
+
+        <param name="email_format" type="yesno" default="0" label="Формат письма" description="Укажите в каком формате отправлять письма" yes="HTML" no="TEXT"/>
+
+        <param name="form_template" type="text" default="default.tpl" label="Шаблон" description="Введите название шаблона. Если оставить поле пустым - будет использован системный шаблон по-умолчанию (default.tpl)."/>
+
+        <param name="form" type="textarea" default="" rows="10" cols="70" label="Элементы  формы" description="Укажите, какие элементы формы хотите использовать и их параметры" />
+
+        <param name="error_view" type="yesno" default="1" label="Показывать ошибки" description="Выводить ли на сайте ошибки настройки модуля"/>
+
+    </params>
+</mosinstall>
+
+
+
+
+
+
+
+
+
+
+
+

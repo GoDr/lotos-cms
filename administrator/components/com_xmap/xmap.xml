@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="component">
+    <name>Карта сайта</name>
+    <creationDate>01.07.2014</creationDate>
+    <author>Gold dragon</author>
+    <copyright>(C) 2000-2014 Gold Dragon</copyright>
+    <authorEmail>illusive@bk.ru</authorEmail>
+    <authorUrl>gd.lotos-cms.ru</authorUrl>
+    <version>1.0</version>
+    <description>
+        <![CDATA[ Компонент создания карт сайта ]]>
+    </description>
+</mosinstall>

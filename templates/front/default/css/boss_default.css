@@ -1,0 +1,746 @@
+/* Главная страница
+***************************************************************/
+/* [ блок статьи ]*/
+.boss_content .frontpage_item {
+    background: url("../images/boss_default/img04.jpg") no-repeat left top;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+/* [ Заголовок статьи ]*/
+.boss_content .frontpage_item > h2 {
+    font-size: 14pt;
+    font-weight: 100;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+/* [ Категория статьи ]*/
+.boss_content .frontpage_item .cat {
+    margin-left: 30px;
+    color: #666;
+}
+
+.boss_content .frontpage_item .cat a {
+    color: #666;
+}
+
+.boss_content .frontpage_item .cat a:hover {
+    color: #2973bd;
+}
+
+/* [ дата статьи ]*/
+.boss_content .frontpage_item .date {
+    text-align: right;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 100;
+    color: #c00;
+    font-size: 9pt;
+}
+
+/* [ содержимое статьи ]*/
+.boss_content .frontpage_item .content {
+    display: table;
+}
+
+.boss_content .frontpage_item .content img {
+    margin: 5px 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content .frontpage_item .tablestyle {
+    display: table;
+}
+
+.boss_content .frontpage_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+/* [ теги статьи ]*/
+.boss_content .frontpage_item .tags {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content .frontpage_item .tags a {
+    color: #666;
+}
+
+.boss_content .frontpage_item .tags a:hover {
+    color: #2973bd;
+}
+
+/* [ количество комментариев статьи ]*/
+.boss_content .frontpage_item .comments {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content .frontpage_item .comments a {
+    color: #666;
+}
+
+.boss_content .frontpage_item .comments a:hover {
+    color: #2973bd;
+}
+
+/* [ количество просмотров статьи ]*/
+.boss_content .frontpage_item .hits {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content .frontpage_item .hits a {
+    color: #666;
+}
+
+.boss_content .frontpage_item .hits a:hover {
+    color: #2973bd;
+}
+
+/* [ Кнопка Подробнее ] */
+.boss_content .frontpage_item .more a {
+    vertical-align: bottom;
+    height: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.boss_content .frontpage_item .more a:hover {
+    opacity: 1;
+}
+
+/* Страница категории
+***************************************************************/
+.boss_content aside.category {
+    padding: 0 20px 20px 20px;
+    position: relative;
+}
+
+/* [ Заголовок категории ] */
+.boss_content aside.category > h1 > img {
+    padding-right: 10px;
+}
+
+.boss_content aside.category > h1 {
+    font-size: 20pt;
+    font-weight: 100;
+    font-family: Tahoma, Arial, Verdana, Sans-Serif;
+    line-height: 100px;
+    height: 64px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* [ Хлебные крошки ] */
+.boss_content aside.category .pathway {
+    display: table;
+    padding: 2px 0;
+}
+
+.boss_content aside.category .pathway li {
+    float: left;
+    font-size: 9pt;
+}
+
+.boss_content aside.category .pathway li:after {
+    padding: 0 5px;
+    content: '/';
+}
+
+/* [ Описание категории ] */
+.boss_content aside.category > blockquote {
+    padding: 5px;
+    color: #666;
+    font-style: italic;
+    font-size: 11pt;
+}
+
+/* [ индекс категории ] */
+.boss_content aside.category .index {
+    border: 1px solid #ccc;
+    padding: 5px;
+    color: #666;
+    font-size: 9pt;
+    text-align: center;
+}
+
+.boss_content aside.category .index .alphaindex {
+    color: #2973bd;
+    font-size: 9pt;
+    text-decoration: none;
+    border: none;
+    vertical-align: baseline;
+    font-weight: 700;
+}
+
+.boss_content aside.category .index .alphaindex:hover {
+    color: #c00;
+}
+
+/* [ подменю категории ] */
+.boss_content aside.category nav.subcats {
+    display: table;
+    padding: 5px 0;
+}
+
+.boss_content aside.category .subcats a {
+    background-image: url("/templates/front/default/images/item_off.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13pt;
+    text-decoration: none;
+    float: left;
+    padding: 0 15px 0 16px;
+}
+
+.boss_content aside.category .subcats a:hover {
+    text-decoration: underline;
+}
+
+/* [ Сортировка ] */
+.boss_content aside.category .search {
+    padding: 4px;
+    font-size: 9pt;
+    text-align: center;
+    height: 30px;
+}
+
+.boss_content aside.category .search select {
+    border: 1px solid #3187AA;
+    font-size: 9pt;
+    background-color: #eee;
+    padding: 1px;
+}
+
+.boss_content aside.category .search img {
+}
+
+/* [ Навигация ] */
+.boss_content section.category .pagecount {
+    color: #666;
+    font-size: 9pt;
+    display: table;
+    margin: 0 auto;
+}
+
+.boss_content section.category .navigation {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.boss_content section.category .navigation ul {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.boss_content section.category .navigation li {
+    display: inline;
+    float: none;
+    padding: 0 3px;
+}
+
+.boss_content section.category .navigation span.pagenav {
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+.boss_content section.category .navigation li a.pagenav {
+    border: 1px dotted #3187AA;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.boss_content section.category .navigation li a.pagenav:hover {
+    border: 1px dotted #c00;
+}
+
+.boss_content section.category .navigation li a {
+    display: inline-block;
+}
+
+/* Страница категории - отображение контента
+***************************************************************/
+/* [ блок статьи ]*/
+.boss_content section.category article.simple_item {
+    background: url("../images/boss_default/img04.jpg") no-repeat left top;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+/* [ Заголовок статьи ]*/
+.boss_content section.category article.simple_item > h2 {
+    font-size: 14pt;
+    font-weight: 100;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+/* [ Категория статьи ]*/
+.boss_content section.category article.simple_item .cat {
+    margin-left: 30px;
+    color: #666;
+}
+
+.boss_content section.category article.simple_item .cat a {
+    color: #666;
+}
+
+.boss_content section.category article.simple_item .cat a:hover {
+    color: #2973bd;
+}
+
+/* [ дата статьи ]*/
+.boss_content section.category article.simple_item .date {
+    text-align: right;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 100;
+    color: #c00;
+    font-size: 9pt;
+}
+
+/* [ содержимое статьи ]*/
+.boss_content section.category article.simple_item .content {
+    display: table;
+}
+
+.boss_content section.category article.simple_item .content img {
+    margin: 5px 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content section.category article.simple_item .tablestyle {
+    display: table;
+}
+
+.boss_content section.category article.simple_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+/* [ теги статьи ]*/
+.boss_content section.category article.simple_item .tags {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.simple_item .tags a {
+    color: #666;
+}
+
+.boss_content section.category article.simple_item .tags a:hover {
+    color: #2973bd;
+}
+
+/* [ количество комментариев статьи ]*/
+.boss_content section.category article.simple_item .comments {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.simple_item .comments a {
+    color: #666;
+}
+
+.boss_content section.category article.simple_item .comments a:hover {
+    color: #2973bd;
+}
+
+/* [ количество просмотров статьи ]*/
+.boss_content section.category article.simple_item .hits {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.simple_item .hits a {
+    color: #666;
+}
+
+.boss_content section.category article.simple_item .hits a:hover {
+    color: #2973bd;
+}
+
+/* [ Кнопка Подробнее ] */
+.boss_content section.category article.simple_item .more a {
+    vertical-align: bottom;
+    height: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.boss_content section.category article.simple_item .more a:hover {
+    opacity: 1;
+}
+
+/* [ рейтинг статьи ] */
+.boss_content section.category article.simple_item .vote {
+    font-size: 9pt;
+    color: #666;
+    margin: 5px 0 -20px;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content section.category article.simple_item .tablestyle {
+    display: table;
+}
+
+.boss_content section.category article.simple_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+.boss_content section.category article.simple_item .edit {
+    margin: 5px 0;
+}
+
+/* Страница категории - отображение выделенного контента
+***************************************************************/
+/* [ блок статьи ]*/
+.boss_content section.category article.allotted_item {
+    background: url("../images/boss_default/img03.jpg") no-repeat left top;
+    background-color: #eff7e8;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+/* [ Заголовок статьи ]*/
+.boss_content section.category article.allotted_item > h2 {
+    font-size: 14pt;
+    font-weight: 100;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+/* [ Категория статьи ]*/
+.boss_content section.category article.allotted_item .cat {
+    margin-left: 30px;
+    color: #666;
+}
+
+.boss_content section.category article.allotted_item .cat a {
+    color: #666;
+}
+
+.boss_content section.category article.allotted_item .cat a:hover {
+    color: #2973bd;
+}
+
+/* [ дата статьи ]*/
+.boss_content section.category article.allotted_item .date {
+    text-align: right;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 100;
+    color: #c00;
+    font-size: 9pt;
+}
+
+/* [ содержимое статьи ]*/
+.boss_content section.category article.allotted_item .content {
+    display: table;
+}
+
+.boss_content section.category article.allotted_item .content img {
+    margin: 5px 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content section.category article.allotted_item .tablestyle {
+    display: table;
+}
+
+.boss_content section.category article.allotted_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+/* [ теги статьи ]*/
+.boss_content section.category article.allotted_item .tags {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.allotted_item .tags a {
+    color: #666;
+}
+
+.boss_content section.category article.allotted_item .tags a:hover {
+    color: #2973bd;
+}
+
+/* [ количество комментариев статьи ]*/
+.boss_content section.category article.allotted_item .comments {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.allotted_item .comments a {
+    color: #666;
+}
+
+.boss_content section.category article.allotted_item .comments a:hover {
+    color: #2973bd;
+}
+
+/* [ количество просмотров статьи ]*/
+.boss_content section.category article.allotted_item .hits {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content section.category article.allotted_item .hits a {
+    color: #666;
+}
+
+.boss_content section.category article.allotted_item .hits a:hover {
+    color: #2973bd;
+}
+
+/* [ Кнопка Подробнее ] */
+.boss_content section.category article.allotted_item .more a {
+    vertical-align: bottom;
+    height: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.boss_content section.category article.allotted_item .more a:hover {
+    opacity: 1;
+}
+
+/* [ рейтинг статьи ] */
+.boss_content section.category article.allotted_item .vote {
+    font-size: 9pt;
+    color: #666;
+    margin: 5px 0 -20px;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content section.category article.allotted_item .tablestyle {
+    display: table;
+}
+
+.boss_content section.category article.allotted_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+.boss_content section.category article.allotted_item .edit {
+    margin: 5px 0;
+}
+
+/* Контент страницы
+***************************************************************/
+.boss_content article.content_item {
+    background: url("../images/boss_default/img04.jpg") no-repeat left top;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+/* [ Заголовок статьи ]*/
+.boss_content article.content_item > h1 {
+    font-size: 14pt;
+    font-weight: 100;
+    margin-left: 30px;
+    font-family: Tahoma, Arial, Verdana, Sans-Serif;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+    color: #2973bd;
+    padding-top: 20px;
+}
+
+/* [ Категория статьи ]*/
+.boss_content article.content_item .cat {
+    margin-left: 30px;
+    color: #666;
+}
+
+.boss_content article.content_item .cat a {
+    color: #666;
+}
+
+.boss_content article.content_item .cat a:hover {
+    color: #2973bd;
+}
+
+/* [ Хлебные крошки ] */
+.boss_content article.content_item .pathway {
+    display: table;
+    padding: 2px 30px;
+}
+
+.boss_content article.content_item .pathway li {
+    float: left;
+    font-size: 9pt;
+}
+
+.boss_content article.content_item .pathway li:after {
+    padding: 0 5px;
+    content: '/';
+}
+
+/* [ иконки печати и почты ] */
+.boss_content article.content_item .icon {
+    margin-top: -16px;
+}
+
+/* [ рейтинг статьи ] */
+.boss_content article.content_item .vote {
+    font-size: 9pt;
+    color: #666;
+    margin: 5px 0 -20px;
+}
+
+/* [ дата статьи ]*/
+.boss_content article.content_item .date {
+    text-align: right;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 100;
+    color: #c00;
+    font-size: 9pt;
+}
+
+/* [ содержимое статьи ]*/
+.boss_content article.content_item .content {
+    display: table;
+}
+
+.boss_content article.content_item .content .content_block{
+    display: table;
+}
+
+.boss_content article.content_item .content p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.boss_content article.content_item .content img {
+    margin: 5px 10px;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+/* [ блок с дополнительными данными ]*/
+.boss_content article.content_item .tablestyle {
+    display: table;
+    margin-top: 10px;
+}
+
+.boss_content article.content_item .tablestyle > div {
+    float: left;
+    margin-right: 10px;
+}
+
+/* [ теги статьи ]*/
+.boss_content article.content_item .tags {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content article.content_item .tags a {
+    color: #666;
+}
+
+.boss_content article.content_item .tags a:hover {
+    color: #2973bd;
+}
+
+/* [ количество комментариев статьи ]*/
+.boss_content article.content_item .comment {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content article.content_item .comment a {
+    color: #666;
+}
+
+.boss_content article.content_item .comment a:hover {
+    color: #2973bd;
+}
+
+/* [ количество просмотров статьи ]*/
+.boss_content article.content_item .hits {
+    color: #666;
+    margin: 3px 0;
+}
+
+.boss_content article.content_item .hits a {
+    color: #666;
+}
+
+.boss_content article.content_item .hits a:hover {
+    color: #2973bd;
+}
+
+/* [ Панель редактирования ] */
+.boss_content article.content_item .edit {
+    margin: 5px 0;
+}
+
+/* [ Комментарии ] */
+.boss_content article.content_item .comments {
+    padding: 10px;
+}
+.boss_content article.content_item .comments > h3{
+    color: #000;
+}
+
+.boss_content article.content_item .comments .dotteddiv{
+    background-color: rgb(234, 234, 234);
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 10px 2px;
+}
+
+.boss_content article.content_item .comments .dotteddiv h3{
+    font-weight: 100;
+    color: #000;
+}
+
+.boss_content article.content_item .comments .dotteddiv .text{
+    font-size: 9pt;
+    font-style: italic;
+    padding: 5px 0;
+}
+
+.boss_content article.content_item .comments .dotteddiv .text .user{
+    text-align: right;
+    font-size: 8pt;
+}
+.boss_content article.content_item .comments .addcomment td{
+    padding: 5px;
+}
+.boss_content article.content_item .comments .addcomment input,
+.boss_content article.content_item .comments .addcomment textarea{
+    border: 1px solid #ccc;
+}
+.boss_content article.content_item .comments .addcomment #description{
+    width: 350px;
+}
+
+/* [ Блок полей ] */
+.boss_content article.content_item .content .field_block{
+    display: block;
+}
+
+.boss_content article.content_item .content .field_block > div{
+    float: left;
+    padding-right: 5px;
+}
+/*
+***************************************************************/
+/*
+***************************************************************/

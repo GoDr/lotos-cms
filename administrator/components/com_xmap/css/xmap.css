@@ -1,0 +1,60 @@
+#xmap_box{
+
+}
+#xmap_box ul,
+#xmap_box li{
+    list-style: none;
+    margin: 7px 0;
+}
+
+#xmap_box ul{
+    padding-left: 20px;
+}
+
+#xmap_box li label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#xmap_box li .selectblock{
+    border: 1px solid #eeb;
+    background-color: #ffd;
+    font-size: 80%;
+    padding: 3px 5px;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+
+.selectblock > img {
+    display: inline;
+    vertical-align: bottom;
+}
+
+#xmap_box li input[type=number]{
+    width: 40px;
+    border: 1px solid #666666;
+    padding: 0;
+    margin: 0;
+    font-size:90%;
+    height: 18px;
+}
+#xmap_box li input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    color:#fff;
+    border: 1px solid #666666;
+    margin: 0 0 0 5px;
+    padding: 5px 4px 3px 5px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.display_none{
+    display:none;
+}
+
+.green{
+    color: #006600;
+}
+.red{
+    color: #aa0000;
+}

@@ -1,0 +1,55 @@
+#boss_content code{
+	width: 550px;
+	background-color: #ffc;
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+	overflow: scroll;
+}
+
+#easyTooltip {
+	margin: 0 10px 1em 0;
+	width: 250px;
+	padding: 8px;
+	background: #fcfcfc;
+	border: 1px solid #e1e1e1;
+	line-height: 130%;
+}
+
+#easyTooltip2 {
+	padding: 5px 10px;
+	border: 1px solid #5e5e5e;
+	background: #5e5e5e url(bg2.gif) repeat-x;
+	color: #fff;
+	width: 250px;
+}
+
+#easyTooltip3 {
+	padding: 5px 10px;
+	border: 1px solid #195fa4;
+	background: #195fa4 url(bg.gif) repeat-x;
+	color: #fff;
+}
+
+#easyTooltip h3 {
+	margin: 0 0 .5em 0;
+	font: 13px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+#easyTooltip2 h4, #easyTooltip2 p {
+	margin: .25em 0;
+}
+
+
+#easyTooltip p {
+	margin: 0 0 .5em 0;
+}
+
+#easyTooltip img {
+	background: #fff;
+	padding: 1px;
+	border: 1px solid #e1e1e1;
+	float: left;
+	margin-right: 10px;
+}
+
