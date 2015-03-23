@@ -1248,12 +1248,12 @@ class HTML_boss
                 <tr>
                 <tr>
                     <td><?php echo BOSS_TH_TITLE; ?></td>
-                    <td><input name="name" id="name" value="<?php echo $row->name ?>" size="45"/></td>
+                    <td><input name="name" id="name" value="<?php echo htmlspecialchars($row->name) ?>" size="45"/></td>
                     <td>&nbsp;</td>
                 <tr>
                 <tr>
                     <td><?php echo BOSS_NAME_ALIAS; ?></td>
-                    <td><input name="slug" id="slug" value="<?php echo $row->slug ?>" size="45"/></td>
+                    <td><input name="slug" id="slug" value="<?php echo htmlspecialchars($row->slug) ?>" size="45"/></td>
                     <td>&nbsp;</td>
                 <tr>
                 <tr>
