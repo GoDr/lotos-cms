@@ -708,7 +708,8 @@ function search_tags($tag, $order, $limitstart, $directory, $template_name)
     $tagContentIds = $database->loadResultArray();
 
     //List
-    $url = "index.php?option=com_boss&amp;task=show_all&amp;directory=" . $directory . "&amp;order=" . $order;
+    $url = "index.php?option=com_boss&amp;task=search_tags&amp;tag=" . $tag . "&amp;directory=" . $directory . "&amp;order=" . $order;
+
 
     ob_start();
     $params = boss_helpers::show_list($header, "", $url, "show_all", "1", '', '', $order, 0, $limitstart, 0, $jDirectoryHtmlClass, $directory, $template_name, $tagContentIds);
