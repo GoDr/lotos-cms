@@ -709,7 +709,7 @@ class mod_gdnlotos_Helper
         }
 
         // Поддержка плагина BossImageGalleryPlugin
-        if ($result[0]['type'] == 'BossImageGalleryPlugin') {
+        if (sizeof($result) and $result[0]['type'] == 'BossImageGalleryPlugin') {
             $pattern = '#file":"(.*?)"#is';
             $replacement = 'file":"<img src=\'/images/boss/' . $this->directory . '/contents/gallery/origin/$1\'">';
             for ($i = 0; $i < sizeof($result); $i++) {
@@ -718,7 +718,7 @@ class mod_gdnlotos_Helper
         }
 
         // Поддержка плагина BossYouTubePlugin
-        if ($result[0]['type'] == 'BossYouTubePlugin') {
+        if (sizeof($result) and $result[0]['type'] == 'BossYouTubePlugin') {
             $pattern = '#v=(.*?)$#is';
             $tmp = array();
             for ($i = 0; $i < sizeof($result); $i++) {
